@@ -1,0 +1,192 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,600;1,800&display=swap');
+
+ /* font-family: 'Poppins', sans-serif; */
+ /* Global stying*/
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body,
+ html {
+     font-family: 'Poppins', sans-serif;
+     overflow-x: hidden;
+     /* overflow-y: hidden; */
+     /*Make page completely fit to the window*/
+ }
+
+ li,
+ a {
+     list-style: none;
+     text-decoration: none;
+ }
+
+ li:hover {
+     font-size: 20px;
+     font-weight: bold;
+     transform: scale(1.2);
+ }
+
+ h1 {
+     font-size: 45px;
+     color: var(--h1);
+     font-weight: bold;
+ }
+
+ h3 {
+     color: var(--grey);
+ }
+
+ p {
+     font-size: 16px;
+     color: var(--grey);
+ }
+
+ .ctn {
+     width: 100px;
+     padding: 8px 12px;
+     background-color: var(--h1);
+     color: whitesmoke;
+     border-radius: 5px;
+     text-align: center;
+ }
+
+ .ctn:hover {
+     background: whitesmoke;
+     border: 1px solid var(--h1);
+     color: var(--h1);
+     font-weight: bold;
+ }
+
+ :root {
+     --h1: #130f49;
+     --blue: #34a1cd;
+     --dark-purple: #55527c;
+     --grey: #b4b2c5;
+     --ping: #ea4c89;
+     --circle: #f4f3ff;
+ }
+
+ .container {
+     width: 80%;
+     margin: 60px auto;
+ }
+
+ .row {
+     display: flex;
+     justify-content: center;
+ }
+
+ .col {
+     display: flex;
+     justify-content: center;
+ }
+
+ .highlight {
+     color: var(--blue);
+ }
+
+ .circle {
+     width: 500px;
+     height: 500px;
+     background-color: var(--circle);
+     position: absolute;
+     top: -40%;
+     right: -30%;
+     border-radius: 50%;
+     z-index: -1;
+ }
+
+ /* navbar */
+ .navbar {
+     width: 100%;
+     padding: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .navbar .nav-list ul,
+ .social-icons ul {
+     display: flex;
+ }
+
+ .nav-list ul li,
+ .social-icons ul li {
+     margin: 0 30px;
+     color: var(--dark-purple);
+     font-size: 18ppx;
+     cursor: pointer;
+ }
+
+ .social-icons ul li:hover {
+     transform: scale(1.4);
+ }
+
+ .logo {
+     width: 50px;
+ }
+.skill-img{
+    width: 150px;
+}
+ /* Header */
+ .header {
+     margin-top: 0px;
+     height: 100vh;
+ }
+
+ .header .col-1 {
+     width: 100%;
+     flex-direction: column;
+     padding: 30px;
+
+ }
+
+ .header .col-2 {
+     width: 100%;
+ }
+
+ .header .col-2 img {
+     max-width: 80%;
+ }
+
+ .header h1 {
+     margin-bottom: 30px;
+ }
+
+ /* skills */
+ .title {
+     text-align: center;
+     margin-bottom: 60px;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .grid-wrapper {
+     display: grid;
+     grid-template-columns:repeat(auto-fit,minmax(400px,auto));
+     grid-gap: 5
+     0px;
+ }
+ .icon-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+ }
+ .icon-title img{
+    margin-right: 20px;
+ }
+ .icon-title h2{
+    font-size: 20px;
+    color: var(--h1);
+ }
+ .grid-box .highlight{
+    color: var(--dark-purple);
+ }
+ .grid-box{
+    padding: 30px;
+ }
+ .grid-box:hover{
+    box-shadow: 0px 0px 30px #0000002F;
+    border-radius: 20px;
+ }
