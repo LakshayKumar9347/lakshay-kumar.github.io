@@ -125,7 +125,8 @@
  }
 
  .logo {
-     width: 50px;
+     width: 150px;
+     align-items: center;
  }
 .skill-img{
     width: 150px;
