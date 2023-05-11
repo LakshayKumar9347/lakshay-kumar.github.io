@@ -5,6 +5,7 @@ dark purple= #55527c
 grey= #b4b2c5
 pink = #ea4c89
 circle= #f4f3ff
+light-pink:#fff5f6
 
 testimonial backgroun = #ffff5f6
 contact backgroun = #e9f9ff
