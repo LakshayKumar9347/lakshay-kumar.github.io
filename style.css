@@ -2,16 +2,19 @@
 
 /* font-family: 'Poppins', sans-serif; */
 /* Global stying*/
-* {
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 
 body,
 html {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
   /* overflow-y: hidden; */
   /*Make page completely fit to the window*/
 }
