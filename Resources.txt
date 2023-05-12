@@ -7,6 +7,7 @@ pink = #ea4c89
 circle= #f4f3ff
 light-pink:#fff5f6
 light-purple:#ada8ff
+light-blue: #e9f9ff;
 
 testimonial backgroun = #ffff5f6
 contact backgroun = #e9f9ff

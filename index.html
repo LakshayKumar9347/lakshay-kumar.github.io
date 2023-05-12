@@ -13,6 +13,7 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <!-- custom css -->
+  <link rel="stylesheet" href="mobile.css">
   <link rel="stylesheet" href="style.css" />
   <!-- Title -->
   <title>Lakshay Kumar Kashyap Personal Website</title>
@@ -27,7 +28,7 @@
     </div>
     <div class="nav-list">
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#">About</a></li>
         <li>
           <a href="./assets/Resume_Lakshay_Kumar.pdf" target="_blank" download="Resume_LakshayKumarKashyap">Resume</a>
@@ -53,12 +54,16 @@
       </ul>
     </div>
   </nav>
+  <div class="toggle-btn">
+    <i class="fa fa-bars"></i>
+  </div>
   <!-- header -->
   <header class="header container">
     <div class="circle"></div>
     <div class="row hero">
       <div class="col col-1">
         <h1>
+          
           Hey,I'm a <span class="highlight"> MERN Stack</span> Web Developer.
         </h1>
         <p>
@@ -155,7 +160,7 @@
     <!-- Grid wrapper  -->
     <div class="grid-wrapper">
       <div class="grid-box">
-        <img src="./img/bg.png" class="portfolio-img" alt="Image not found" />
+        <img src="./website_res/portfolio.png" class="portfolio-img" alt="Image not found" />
         <div class="hover">
           <h4>Application</h4>
           <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i>
@@ -163,7 +168,7 @@
         </div>
       </div>
       <div class="grid-box">
-        <img src="./img/bg.png" class="portfolio-img" alt="Image not found" />
+        <img src="./website_res/portfolio.png" class="portfolio-img" alt="Image not found" />
         <div class="hover">
           <h4>Application</h4>
           <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i>
@@ -171,7 +176,7 @@
         </div>
       </div>
       <div class="grid-box">
-        <img src="./img/bg.png" class="portfolio-img" alt="Image not found" />
+        <img src="./website_res/portfolio.png" class="portfolio-img" alt="Image not found" />
         <div class="hover">
           <h4>Application</h4>
           <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i>
@@ -179,7 +184,7 @@
         </div>
       </div>
       <div class="grid-box">
-        <img src="./img/bg.png" class="portfolio-img" alt="Image not found" />
+        <img src="./website_res/portfolio.png" class="portfolio-img" alt="Image not found" />
         <div class="hover">
           <h4>Application</h4>
           <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i>
@@ -187,7 +192,7 @@
         </div>
       </div>
       <div class="grid-box">
-        <img src="./img/bg.png" class="portfolio-img" alt="Image not found" />
+        <img src="./website_res/portfolio.png" class="portfolio-img" alt="Image not found" />
         <div class="hover">
           <h4>Application</h4>
           <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i>
@@ -195,7 +200,7 @@
         </div>
       </div>
       <div class="grid-box">
-        <img src="./img/bg.png" class="portfolio-img" alt="Image not found" />
+        <img src="./website_res/portfolio.png" class="portfolio-img" alt="Image not found" />
         <div class="hover">
           <h4>Application</h4>
           <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i>
@@ -267,6 +272,42 @@
     </div>
   </section>
   <!-- TESTIMONIALS -->
+
+  <!-- Contact SECTION -->
+  <section class=" contact">
+    <div class="container">
+      <h3>CONTACT ME</h3>
+      <h1>Got A Project! Let's Talk</h1>
+      <h3><i class="fa fa-envelope-o"></i>test@test.com</h3>
+      <div class="quick-links">
+        <div class="brand">
+          <img src="./img/profile.png" alt="" class="logo">
+        </div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Skills</li>
+          <li>Services</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="copright container">
+    <p>©️ 2023 Lakshay Kumar Kashyap | Follow on Github</p>
+  </div>
+
+
+  <!-- Contact SECTION -->
+  <script>
+    let togglebtn = document.querySelector('.toggle-btn')
+    let navbar =document.querySelector('.navbar')
+
+    togglebtn.addEventListener('click', () => {
+      navbar.classList.toggle('mobile-nav')
+
+    })
+  </script>
 </body>
 
 </html>
