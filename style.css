@@ -19,7 +19,7 @@ html {
   --h1: #1e1964;
   /* --blue: #34a1cd; */
   --blue: #85c6e0;
-  --dark-purple:  #7875a3;
+  --dark-purple: #8153c6;
   --grey: #b4b2c5;
   --pink: #ea4c89;
   --circle: #f4f3ff;
@@ -189,6 +189,7 @@ p {
 /* skills */
 h3 {
   color: var(--grey);
+  padding-top: 40px;
 }
 
 .skill-img {
