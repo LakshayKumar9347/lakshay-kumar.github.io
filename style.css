@@ -26,6 +26,8 @@ html {
   --light-pink: #fff5f6;
   --light-purple: #ada8ff;
   --light-blue: #e9f9ff;
+  --light-baby-pink:#F7E8ff;
+  --light-beige:#fbf5e9
 }
 
 li,
@@ -206,9 +208,12 @@ p {
 .grid-box .highlight {
   color: var(--dark-purple);
 }
-
+.skills{
+  background-color: var(--circle);
+  border-radius: 30px;
+}
 .skills .grid-box {
-  padding: 30px;
+  padding: 50px;
   /* height: auto; */
 }
 
@@ -309,7 +314,8 @@ p {
 /* Testimonials */
 .testimonials {
   margin-top: 120px;
-  background: var(--light-pink);
+  /* background: var(--light-pink); */
+  background: var(--light-beige);
   padding: 60px 0px;
 
 }
