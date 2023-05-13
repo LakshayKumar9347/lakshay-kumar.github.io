@@ -5,9 +5,9 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- custom css -->
-    <link rel="stylesheet" href="mobile.css">
-    <link rel="stylesheet" href="style.css" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="mobile.css">
+  <link rel="stylesheet" href="style.css" />
   <!-- !Font Awesome Cdn -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
     " />
@@ -23,17 +23,18 @@
   <!--This is the Navbar section  -->
   <nav class="navbar">
     <div class="brannd">
-      <img src="./img/purple-logo.png" alt="Image not found" class="logo" />
+      <img src="./img/logo.png" alt="Image not found" class="logo" />
       <!-- <img src="./img/bg.png" alt=""> THis for testing purpose -->
     </div>
     <div class="nav-list">
       <ul>
-        <li><a href="" >Home</a></li>
-        <li><a href=""  class="nav-link-scroll">About</a></li>
+        <!--  NAV-LINK-SCROLL1,  NAV-LINK-SCROLL2 -> are the variable to be press and make the page scroll to the class -> DATA-LINK scroll1 ,scroll2 -->
+        <li><a>Home</a></li>
+        <li><a class="nav-link-scroll1">About</a></li>
         <li>
           <a href="./assets/Resume_Lakshay_Kumar.pdf" target="_blank" download="Resume_LakshayKumarKashyap">Resume</a>
         </li>
-        <li><a  href="" class="nav-link-scroll">Contact</a></li>
+        <li><a class="nav-link-scroll2  ">Contact</a></li>
       </ul>
     </div>
     <div class="social-icons">
@@ -94,49 +95,37 @@
       <div class="grid-box">
         <div class="icon-title">
           <img src="./img/mongodb.png" alt="" class="skill-img" />
-          <h2>Responsive Web design</h2>
+          <h2>NoSQL Database Management</h2>
         </div>
         <p>
-          <span class="highlight">Design text</span>Lorem ipsum dolor, sit
-          amet consectetur adipisicing elit. Ea, laborum vel incidunt soluta
-          tempora in. Omnis itaque consequatur tenetur illum esse cum iusto,
-          voluptas delectus, doloremque sunt, dignissimos animi ipsum.
+          <span class="highlight">MongoDB :</span>  is a document-oriented NoSQL database that provides a flexible and scalable solution for storing and retrieving data. Unlike traditional relational databases, MongoDB stores data in JSON-like documents, which can be easily queried and manipulated.
         </p>
       </div>
       <div class="grid-box">
         <div class="icon-title">
           <img src="./img/expressjs.png" alt="" class="skill-img" />
-          <h2>Responsive Web design</h2>
+          <h2>Web Application Development</h2>
         </div>
         <p>
-          <span class="highlight">Design text</span>Lorem ipsum dolor, sit
-          amet consectetur adipisicing elit. Ea, laborum vel incidunt soluta
-          tempora in. Omnis itaque consequatur tenetur illum esse cum iusto,
-          voluptas delectus, doloremque sunt, dignissimos animi ipsum.
+          <span class="highlight">ExpressJS :</span> is a popular web application framework for Node.js that provides a robust set of features for building server-side applications. Express.js is known for its simplicity and flexibility, allowing developers to easily create RESTful APIs and web applications.
         </p>
       </div>
       <div class="grid-box">
         <div class="icon-title">
           <img src="./img/reactjs.png" alt="" class="skill-img" />
-          <h2>Responsive Web design</h2>
+          <h2>Component-Based Architecture</h2>
         </div>
         <p>
-          <span class="highlight">Design text</span>Lorem ipsum dolor, sit
-          amet consectetur adipisicing elit. Ea, laborum vel incidunt soluta
-          tempora in. Omnis itaque consequatur tenetur illum esse cum iusto,
-          voluptas delectus, doloremque sunt, dignissimos animi ipsum.
+          <span class="highlight">React Js :</span> is a popular front-end library for building user interfaces. It provides a component-based architecture that allows developers to build complex UIs with reusable and composable components. React.js is widely used in web development for its performance, scalability, and maintainability.
         </p>
       </div>
       <div class="grid-box">
         <div class="icon-title">
           <img src="./img/nodejs.jpg" alt="" class="skill-img" />
-          <h2>Responsive Web design</h2>
+          <h2>Building Server-Side Applications</h2>
         </div>
         <p>
-          <span class="highlight">Design text</span>Lorem ipsum dolor, sit
-          amet consectetur adipisicing elit. Ea, laborum vel incidunt soluta
-          tempora in. Omnis itaque consequatur tenetur illum esse cum iusto,
-          voluptas delectus, doloremque sunt, dignissimos animi ipsum.
+          <span class="highlight">Node JS :</span> is a cross-platform, open-source JavaScript runtime built on Google's V8 engine. Node.js provides an event-driven, non-blocking I/O model that makes it ideal for building scalable, high-performance server-side applications.
         </p>
       </div>
     </div>
@@ -159,7 +148,7 @@
     <!-- Grid wrapper  -->
     <div class="grid-wrapper">
       <div class="grid-box">
-        <img src="./website_res/portfolio.png" class="portfolio-img" alt="Image not found" />
+        <img src="./img/portfolio.png" class="portfolio-img" alt="Image not found" />
         <div class="hover">
           <h4>Application</h4>
           <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i>

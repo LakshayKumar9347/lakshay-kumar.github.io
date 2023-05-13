@@ -19,7 +19,8 @@ html {
   --h1: #1e1964;
   /* --blue: #34a1cd; */
   --blue: #85c6e0;
-  --dark-purple: #8153c6;
+  /* --dark-purple: #8153c6; */
+  --dark-purple:  #5c3399;
   --grey: #b4b2c5;
   --pink: #ea4c89;
   --circle: #f4f3ff;
@@ -55,7 +56,9 @@ html {
 }
 .navbar a{
   text-decoration: none;
-  color:#8153c6;
+  /* color:#8153c6; */
+  color:   #5c3399;
+
 }
 
 
@@ -86,9 +89,6 @@ li,
 a {
   list-style: none;
 
-  .skill-img {
-    width: 150px;
-  }
 
   text-decoration: none;
 }
@@ -192,14 +192,16 @@ h3 {
   padding-top: 40px;
 }
 
+
 .skill-img {
   width: 150px;
+  border-radius: 10px;
 }
 
-.title {
+.skills .title {
   text-align: center;
   margin-bottom: 60px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
 }
 
 .grid-wrapper {
@@ -220,11 +222,11 @@ h3 {
 
 .icon-title h2 {
   font-size: 20px;
-  color: var(--h1);
+  color:var(--h1);
 }
 
 .skills .grid-box .highlight {
-  color: var(--dark-purple);
+  color: var(--h1);
 }
 
 .skills {
