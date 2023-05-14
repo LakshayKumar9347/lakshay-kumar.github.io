@@ -10,9 +10,10 @@
 body,
 html {
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden;/*Make page completely fit to the window*/
+  overflow-x: hidden;
+  /*Make page completely fit to the window*/
   scroll-behavior: smooth;
-  
+
 }
 
 :root {
@@ -20,7 +21,7 @@ html {
   /* --blue: #34a1cd; */
   --blue: #85c6e0;
   /* --dark-purple: #8153c6; */
-  --dark-purple:  #5c3399;
+  --dark-purple: #5c3399;
   --grey: #b4b2c5;
   --pink: #ea4c89;
   --circle: #f4f3ff;
@@ -54,10 +55,11 @@ html {
   font-size: 18px;
   cursor: pointer;
 }
-.navbar a{
+
+.navbar a {
   text-decoration: none;
   /* color:#8153c6; */
-  color:   #5c3399;
+  color: #5c3399;
 
 }
 
@@ -222,7 +224,7 @@ h3 {
 
 .icon-title h2 {
   font-size: 20px;
-  color:var(--h1);
+  color: var(--h1);
 }
 
 .skills .grid-box .highlight {
@@ -244,27 +246,37 @@ h3 {
   border-radius: 20px;
 }
 
+/* ===========  PORTFOLIO  ============= */
 /* Portfolio section */
 
-.portfolio-img {
-  width: 100%;
-  height: auto;
-
-}
 
 .portfolio .grid-wrapper .grid-box {
-  /* background-color: #ea4c89; */
-  border-radius: 30px;
-  width: 77%;
-  height: 90%;
+  position: relative;
+  width: 345px;
+  height: 365px;
   overflow: hidden;
+  margin: 30px;
 }
+
+/* .portfolio-img {
+  width: 150%;
+  height: auto;
+  border-radius: 10px;
+} */
 
 .portfolio {
   margin-top: 150px;
   position: relative;
+  /* background-color:rgb(173, 168, 255); */
+  background-color: rgb(247, 232, 255);
+  border-radius: 20px;
 }
 
+.portfolio .grid-wrapper {
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  
+}
 .portfolio .title {
   text-align: left;
 }
@@ -285,10 +297,7 @@ h3 {
   color: var(--pink);
 }
 
-.portfolio .grid-wrapper {
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-  grid-gap: 20px;
-}
+
 
 .rectangle-bg {
   width: 700px;
@@ -301,10 +310,8 @@ h3 {
   border-radius: 20px;
 }
 
-.portfolio .grid-box {
-  position: relative;
-}
-
+/* == waste line of code removed after optimizatoin */
+/* 
 .hover {
   position: absolute;
   top: 9%;
@@ -328,7 +335,7 @@ h3 {
 
 .portfolio .grid-box:hover .hover {
   transform: scaleX(1);
-}
+} */
 
 
 
