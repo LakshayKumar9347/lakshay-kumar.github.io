@@ -206,7 +206,7 @@ h3 {
   /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
 }
 
-.grid-wrapper {
+.skills .grid-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, auto));
   grid-gap: 5 0px;
@@ -252,40 +252,46 @@ h3 {
 
 .portfolio .grid-wrapper .grid-box {
   position: relative;
-  width: 345px;
+  width: 100%;
   height: 365px;
   overflow: hidden;
   margin: 30px;
 }
 
-/* .portfolio-img {
-  width: 150%;
-  height: auto;
-  border-radius: 10px;
-} */
+.portfolio .grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+  grid-gap: 5 0px;
+}
+
+.portfolio-img {
+  width: 80%;
+  height: 100%;
+  border-radius: 20px;
+  /* object-fit: cover; */
+
+}
 
 .portfolio {
   margin-top: 150px;
   position: relative;
   /* background-color:rgb(173, 168, 255); */
   background-color: rgb(247, 232, 255);
+  padding: 0px 30px;
   border-radius: 20px;
 }
 
-.portfolio .grid-wrapper {
- display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-  
-}
 .portfolio .title {
   text-align: left;
 }
 
 .portfolio .title .ctn-title {
   display: flex;
+
   width: 100%;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .ctn-title h4 {
@@ -348,14 +354,21 @@ h3 {
   padding: 60px 0px;
 
 }
-
-.testimonials .grid-wrapper {
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+.testimonials .title{
+text-align: left;
 }
-
+.testimonials .grid-wrapper {
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, auto)); */
+  grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+}
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+  grid-gap: 5px 0px;
+}
 .testimonials .grid-box {
   background: white;
-  display: flex;
+  display: grid;
   flex-direction: column;
   align-items: center;
   /* justify-content: space-around; */
@@ -371,6 +384,7 @@ h3 {
   margin-top: -60px;
   margin-bottom: 40px;
   transition: transform 0.5 ease;
+  align-items: center;
 }
 
 .testimonials .grid-box .fa-quote-left {
@@ -407,6 +421,7 @@ h3 {
 .testimonials .grid-box:hover {
   transform: rotateX(10deg);
 }
+
 
 
 /* CONTACT SECTION */
